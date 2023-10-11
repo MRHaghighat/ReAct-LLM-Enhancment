@@ -21,7 +21,7 @@ To set up the project, follow these installation steps:
 To use the project, run the `Streamlit` app and input your question to generate an updated result from the Language Model:
 
   ```bash
-  streamlit run app.py
+  streamlit run ./app/react.py
 ```
 ## Configuration
 For configuration settings, refer to the code and update the environment variables for your `OpenAI` and SERPER API keys:
