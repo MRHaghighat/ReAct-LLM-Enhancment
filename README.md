@@ -13,23 +13,23 @@ While large language models (LLMs) have demonstrated impressive capabilities acr
 
 To set up the project, follow these installation steps:
 
-```bash
-pip install -r requirements.txt
+  ```bash
+  pip install -r requirements.txt
 
-
+```
 ## Usage
 To use the project, run the `Streamlit` app and input your question to generate an updated result from the Language Model:
 
-```bash
-streamlit run app.py
-
+  ```bash
+  streamlit run app.py
+```
 ## Configuration
 For configuration settings, refer to the code and update the environment variables for your `OpenAI` and SERPER API keys:
 
 ```bash
 os.environ["OPENAI_API_KEY"] = "<YOUR-OPENAI-API-KEY>"
 os.environ["SERPER_API_KEY"] = "<YOUR-SERPER-API-KEY>"
-
+```
 ## License
 This project is licensed under the MIT License.
 
