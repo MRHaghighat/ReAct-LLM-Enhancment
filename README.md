@@ -23,6 +23,7 @@ To use the project, run the `Streamlit` app and input your question to generate 
   ```bash
   streamlit run ./app/react.py
 ```
+![alt text](https://github.com/MRHaghighat/ReAct-LLM-Enhancment/blob/main/img/react.png)
 ## Configuration
 For configuration settings, refer to the code and update the environment variables for your `OpenAI` and SERPER API keys:
 
